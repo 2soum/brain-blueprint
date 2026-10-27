@@ -1,6 +1,6 @@
 ---
-id: deploy-procedure-for-the-portfolio
-title: Deploy procedure for the portfolio
+id: deploy-procedure-for-the-docs-site
+title: Deploy procedure for the docs site
 type: procedure
 cortex: engineering
 description: Push to main deploys to production in under a minute.

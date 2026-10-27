@@ -14,7 +14,7 @@ created: '2026-10-27'
 last_validated: '2026-10-27'
 status: active
 links:
-- to: deploy-procedure-for-the-portfolio
+- to: deploy-procedure-for-the-docs-site
   rel: applies-to
 - to: firestore-region-europe-west1-for-eu-prospect-data
   rel: same-stack
