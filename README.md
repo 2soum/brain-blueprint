@@ -7,7 +7,7 @@ Agents forget everything between sessions. Most memory layers fix that with a ve
 It contains two things:
 
 1. **[The blueprint](docs/blueprint.md).** How to structure an agent's long-term memory: the note schema, the lifecycle (recall, encode, link, supersede, validate), ranking, the protocol you give the agent, and how to evaluate it.
-2. **A reference implementation.** A small MCP server in Python (SQLite FTS5, ~300 lines, tested) that plugs into Claude Code, Claude Desktop, Cursor or any MCP client.
+2. **A reference implementation.** A small MCP server in Python (SQLite FTS5, under 400 lines, tested) that plugs into Claude Code, Claude Desktop, Cursor or any MCP client.
 
 ## The design in six rules
 
