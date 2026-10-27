@@ -1,0 +1,31 @@
+[project]
+name = "brain-blueprint"
+version = "0.1.0"
+description = "A blueprint and reference MCP server for long-term agent memory: Markdown notes, typed frontmatter, hybrid ranking, links and supersession."
+readme = "README.md"
+authors = [{ name = "Dayssam Bakaar" }]
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=2.3.0",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+brain-mcp = "brain_blueprint.server:main"
+
+[build-system]
+requires = ["uv_build>=0.9.26,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.17.3",
+]
+
+[tool.ruff]
+line-length = 110
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
